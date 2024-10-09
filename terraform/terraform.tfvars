@@ -1,0 +1,7 @@
+project          = "triple-grove-438014-p9"
+region           = "us-west1"
+GCS_BUCKET       = "desteam-bucket-24"
+CLASS            = "STANDARD"
+BQ_RAW_DATASET   = "steam_raw_data"
+BQ_DATASET       = "steam_star_schema"
+BQ_REPORT_DATASET= "steam_reports"
