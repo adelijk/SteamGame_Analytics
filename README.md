@@ -72,7 +72,7 @@ The final dashboard includes the following charts:
 
 <div align="center">
   <a href="https://lookerstudio.google.com/reporting/d804521d-833b-476a-bcb8-70a7a02fc868">
-    <img src="" alt="Banner" width="720">
+    <img src="dashboard.png" alt="Banner" width="720">
   </a>
 
 
