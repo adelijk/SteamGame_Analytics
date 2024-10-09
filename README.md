@@ -15,7 +15,7 @@ Steam is a popular platform for video games, with a wealth of data related to ga
 
 The goal is to create a streamlined pipeline that organizes the data, transforms it, and presents it through dashboards for easy analysis.
 
-## Key Goals
+## 🚀Key Goals
 
 * Develop a data pipeline to process Steam data in a structured manner.
 * Build an analytical dashboard using Looker to visualize insights.
@@ -46,7 +46,7 @@ The dataset includes fields such as:
     <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform badge">
 </div>
 
-## Project Architecture
+## 🛠️Project Architecture
 The end-to-end pipeline follows these steps:
 
 * Data Extraction: Convert Steam data from JSON format to Parquet for efficient storage.
