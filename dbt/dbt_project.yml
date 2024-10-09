@@ -1,0 +1,32 @@
+# Name your project! Project names should contain only lowercase characters
+# and underscores. A good package name should reflect your organization's
+# name or the intended use of these models
+name: 'desteam'
+version: '1.0.0'
+config-version: 2
+
+# This setting configures which "profile" dbt uses for this project.
+profile: 'desteam'
+log-path: '/opt/airflow/logs'
+.
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:         # directories to be removed by `dbt clean`
+  - "target"
+  - "dbt_packages"
+
+# Configuring models
+models:
+  de_steam:
+    staging:
+      +materialized: table
+      +schema: steam_raw_data
+    mart:
+      +materialized: table
+      +schema: steam_star_schema
+    report:
+      +materialized: view
+      +schema: steam_reports

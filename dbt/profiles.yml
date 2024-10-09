@@ -1,0 +1,14 @@
+desteam:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: qwiklabs-gcp-03-32bd29b4282f
+      dataset: steam_raw_data
+      keyfile: /opt/airflow/gcp/credentials/credentials.json
+      threads: 4
+      timeout_seconds: 300
+      location: US
+      priority: interactive
+      retries: 1

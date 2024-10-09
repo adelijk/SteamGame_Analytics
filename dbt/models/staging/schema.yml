@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: steam_data
+    tables:
+      - name: steam_games
+      - name: steam_new
+      - name: bundle_data
