@@ -26,6 +26,7 @@ The project utilizes the Steam Video Game and Bundle datasets, which were obtain
 * Game information (title, developer, genre, etc.)
 * User reviews and ratings
 * Bundle details (grouped games)
+
 The dataset includes fields such as:
 
 * Game Title
